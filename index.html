@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon logo.png" type="image/x-icon" />
+    <title>Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</title>
+    <!-- linking font awesome cnd for side icon jo denge socialmedia ka -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body>
+    <nav>
+        <div class="main-logo">
+            <a href="#"><img src="img/main-logo2.png" alt="main-logo2"></a>
+        </div>
+        <div class="map">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+                <span class="first">Delivering to Ghaziabad 201015</span>
+                <span class="second">Update location</span>
+            </div>
+        </div>
+        <div class="search-input">
+            <div>
+                <span>All</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <input type="text" placeholder="Search Amazon.in">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="right">
+            <div class="language">
+                <img src="img/indiaFlag.png" alt="">
+                <span>EN</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="signIn">
+                <span>Hello, sign in</span>
+                <div class="accounts">
+                    <span>Account & Lists</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="Return-Order">
+                <span>Returns</span>
+                <div class="Order">
+                    <span>& Orders</span>
+                </div>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="ct">Cart</span>
+                <!-- <p>0</p> -->
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="navbar">
+        <div class="Right">
+           
+            <div class="item1"><a href="#">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                    <span class="text">All</span></a>
+            </div>
+            <div class="item2"><a href="#"> Amazon miniTV</a></div>
+            <div class="item3"><a href="#">Sell</a></div>
+            <div class="item4"><a href="#">Best Sellers</a> </div>
+            <div class="item5"><a href="#">Today's Deals</a> </div>
+            <div class="item6"><a href="#">Mobiles</a> </div>
+            <div class="item7"><a href="#">Customer Services</a> </div>
+            <div class="item8"><a href="#">Electronics</a> </div>
+            <div class="item9"><a href="#">New Releases</a> </div>
+            <div class="item10"><a href="#">
+                    <span class="prime">Prime</span>
+                    <i class="fa-solid fa-caret-down"></i></a>
+            </div>
+            <div class="item11"><a href="#">Home & Kitchen</a></div>
+            <div class="item12"><a href="#">Gift Ideas</a></div>
+            <div class="left"><a href="#">
+                    <img src="img/navbar-right-shop.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- Slider Banner having transition with JAVASCRIPT -->
+    <div class="main">
+
+        <div class="main-slider">
+            <div class="image fade">
+                <img id="img-1" src="img/pink-banner1.jpg" width="50%" height="50%" alt="Banner 1">
+
+            </div>
+            <div class="image fade">
+                <img id="img-2" src="img/yellow-shoes-banner2.jpg" width="50%" height="50%" alt="Image 2">
+
+            </div>
+            <div class="image fade">
+                <img id="img-3" src="img/blue-mobile-banner3.jpg" width="50%" height="50%" alt="Image 3">
+
+            </div>
+            <div class="image fade">
+                <img id="img-4" src="img/yellow-utility-banner4.jpg" width="50%" height="50%" alt="Image 4">
+
+            </div>
+            <div class="image fade">
+                <img id="img-5" src="img/green-watch-banner5.jpg" width="50%" height="50%" alt="Image 5">
+
+            </div>
+            <div class="image fade">
+                <img id="img-6" src="img/greenyellow-sweet-banner6.jpg" width="50%" height="50%" alt="Image 6">
+
+            </div>
+            <div class="image fade">
+                <img id="img-7" src="img/yellow-shirt-bannner7.jpg" width="50%" height="50%" alt="Image 7">
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="gradient">
+            <img src="" alt="">
+
+
+        </div>
+        <div class="gradient-fullbase">
+            <img src="" alt="">
+
+
+        </div>
+
+
+        <!-- **************Banner Slider transition Starts Here with this JAVASCRIPT*********************** -->
+        <script>
+            let index = 0;
+            displayImages();
+            function displayImages() {
+                let i;
+                const images = document.getElementsByClassName("image");
+                for (i = 0; i < images.length; i++) {
+                    images[i].style.display = "none";
+                }
+                index++;
+                if (index > images.length) {
+                    index = 1;
+                }
+                images[index - 1].style.display = "block";
+                setTimeout(displayImages, 3000);
+            }
+
+
+        </script>
+        <!-- **************Banner Slider transition Ends Here************************** -->
+
+
+       
+    </div>
+
+    <!--******************First itrnery display starts here*************-->
+
+    <div class="container-box">
+        <div class="product-comp">
+            <div class="box-a">
+                <div class="box">
+                    <h3>Keep Shopping For</h3>
+                    <div class="q">
+                        <img src="img/41-2m5Oyv5L._MCnd_AC_ - Copy.jpg" alt="">
+                        <span>Smartphones & basic accessories</span>
+                    </div>
+                    <div class="w">
+                        <img src="img/41dm9gxVoDL._MCnd_AC_ - Copy.jpg" alt="">
+                        <span>Men's kurta</span>
+                    </div>
+                    <div class="e">
+                        <img src="img/31vgTTBeQUL._MCnd_AC_ - Copy.jpg" alt="">
+                        <span>Men's Casual Shirts</span>
+                    </div>
+                    <div class="r">
+                        <img src="img/61BOInZ52uL._AC_SY290_.jpg" alt="">
+                        <span>Traditional kurtas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box-b">
+                <div class="box2">
+                    <h3>Pick up where you left off</h3>
+                    <div class="qa">
+                        <img src="img/61QRgOgBx0L._AC_SY220_.jpg" alt="">
+                        <span>Smartphones & basic accessories</span>
+                    </div>
+                    <div class="wb">
+                        <img src="img/61I2QvIOmFL._AC_SY290_.jpg" alt="">
+                        <span>Men's kurta</span>
+                    </div>
+                    <div class="ec">
+                        <img src="img/71dwS-ovToL._AC_SY290_.jpg" alt="">
+                        <span>Men's Ethinic Wear</span>
+                    </div>
+                    <div class="rd">
+                        <img src="img/81ZrVtcKFrL._AC_SY290_.jpg" alt="">
+                        <span>Ethinic kurtas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box-c">
+                <div class="box3">
+                    <h3>Pick up where you left off</h3>
+                    <div class="qaa">
+                        <img src="img/31IdsY7yWTL._MCnd_AC_.jpg" alt="">
+                        <span>Smartphones & basic accessories</span>
+                    </div>
+                    <div class="wbb">
+                        <img src="img/31YCdvXIblL._MCnd_AC_.jpg" alt="">
+                        <span>Designer kurta's</span>
+                    </div>
+                    <div class="ecc">
+                        <img src="img/41dm9gxVoDL._MCnd_AC_ - Copy.jpg" alt="">
+                        <span>Men's Ethinic Wear</span>
+                    </div>
+                    <div class="rdd">
+                        <img src="img/31vgTTBeQUL._MCnd_AC_ - Copy.jpg" alt="">
+                        <span>Men's Kurta</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box-d">
+                <div class="box4">
+                    <h3>Pick up where you left off</h3>
+                    <div class="qaaa">
+                        <img src="img/41bLD50sZSL._MCnd_AC_.jpg" alt="">
+                        <span>Smartphones & basic accessories</span>
+                    </div>
+                    <div class="wbbb">
+                        <img src="img/71dwS-ovToL._AC_SY290_.jpg" alt="">
+                        <span>Men's kurta</span>
+                    </div>
+                    <div class="eccc">
+                        <img src="img/81ZrVtcKFrL._AC_SY290_.jpg" alt="">
+                        <span>Men's Ethinic Wear</span>
+                    </div>
+                    <div class="rddd">
+                        <img src="img/713OtYpV-sL._SY550_.jpg" alt="">
+                        <span>Ethinic kurtas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ******************First itrnery display completes here************* -->
+    <!-- ******************second itrnery display starts here************* -->
+
+    <div class="container-box-b">
+        <div class="product-comp-b">
+            <div class="box-e">
+                <div class="boxx">
+                    <h3>Keep Watching Latest</h3>
+                    <div class="s">
+                        <img src="img/Rashmika Mandanna on a new poster of 'Animal'.jpeg" alt="itenry display movie banner">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-box-bb">
+        <div class="product-comp-bb">
+            <div class="box-f">
+                <div class="boxxx">
+                    <div class="t">
+                        <img src="img/long-animal-banner.jpg" alt="2nd itenry display 2nd landscape movie banner">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-box-bbb">
+        <div class="product-comp-bbb">
+            <div class="box-g">
+                <div class="boxxxx">
+                    <div class="u">
+                        <img src="img/61yMBhzAK5L.jpg" alt="2nd iteney 3rd banner wireless earphone">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ******************second itrnery display completes here************* -->
+
+    <!-- ************* first slider image horizontal starts here********** -->
+    <div class="scroll-container">
+        <h3>Additional Items to Explore</h3>
+        <img src="img/scroll1.jpg" alt="1">
+        <img src="img/scroll2_.jpg" alt="2">
+        <img src="img/scroll3.jpg" alt="3">
+        <img src="img/scroll4.jpg" alt="4">
+        <img src="img/scroll5.jpg" alt="5">
+        <img src="img/scroll6.jpg" alt="6">
+        <img src="img/scroll7.jpg" alt="7">
+        <img src="img/scroll8.jpg" alt="8">
+        <img src="img/scroll9.jpg" alt="9">
+        <img src="img/scroll10.jpg" alt="10">
+        <img src="img/scroll11.jpg" alt="11">
+        <img src="img/scroll12.jpg" alt="12">
+        <img src="img/scroll13.jpg" alt="13">
+        <img src="img/scroll14.jpg" alt="14">
+        <img src="img/scroll15.jpg" alt="15">
+    </div>
+    <!-- ************* first slider image horizontal completes here********** -->
+
+    <!-- ******************fourth itrnery display starts here************* -->
+    <div class="container-box-c">
+        <div class="product-comp-c">
+            <div class="box-h">
+                <div class="boxxxxx1">
+                    <h3>Starting ₹99 | Indoor plants & more</h3>
+                    <div class="v">
+                        <img src="img/compressed_379x304_compressed._SY304_CB592193370_.jpg"
+                            alt="4th itenry display banner">
+                    </div>
+
+                </div>
+            </div>
+            <div class="box-i">
+                <div class="boxxxxx2">
+                    <h3>Keep shopping for</h3>
+                    <div class="w">
+                        <img src="img/1st sc.png" alt="4th itenry display 2nd banner">
+                    </div>
+
+                </div>
+            </div>
+            <div class="box-j">
+                <div class="boxxxxx3">
+                    <h3>Explore more</h3>
+                    <div class="x">
+                        <img src="img/2nd sc.png" alt="4th iteney 3rd banner">
+                    </div>
+                </div>
+            </div>
+            <div class="box-k">
+                <div class="boxxxxx4">
+                    <h3>More items to consider</h3>
+                    <div class="y">
+                        <img src="img/3rd sc.png" alt="4th iteney 3rd banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ************* second  grocery slider image horizontal starts here********** -->
+    <div class="scroll-containerb">
+        <h3>Additional Items to ExploreBest Sellers in Grocery & Gourmet Foods</h3>
+        <img src="img/g1.jpg" alt="1">
+        <img src="img/g2.jpg" alt="2">
+        <img src="img/g3.jpg" alt="3">
+        <img src="img/g4.jpg" alt="4">
+        <img src="img/g5.jpg" alt="5">
+        <!-- <img src="img/g6.jpg" alt="6"> -->
+        <img src="img/g7.jpg" alt="7">
+        <img src="img/g8.jpg" alt="8">
+        <img src="img/g9.jpg" alt="9">
+        <img src="img/g10.jpg" alt="10">
+        <img src="img/g11.jpg" alt="11">
+        <img src="img/g12.jpg" alt="12">
+        <img src="img/g13.jpg" alt="13">
+        <img src="img/g14.jpg" alt="14">
+        <img src="img/g15.jpg" alt="15">
+        <img src="img/g16.jpg" alt="16">
+        <img src="img/g17.jpg" alt="17">
+        <img src="img/g18.jpg" alt="18">
+        <img src="img/g19.jpg" alt="19">
+        <img src="img/g20.jpg" alt="20">
+    </div>
+    <!-- *************second grocery slider image horizontal completes here********** -->
+
+    <!-- ******************second itrnery display starts here************* -->
+
+    <div class="container-box-d">
+        <div class="product-comp-d">
+            <div class="box-l">
+                <div class="boxxxxxx1">
+                    <h3>Watch GTA Vl Trailer</h3>
+                    <div class="z">
+                        <video width="750" height="742" controls>
+                            <source src="video/v1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-box-dd">
+        <div class="product-comp-dd">
+            <div class="box-m">
+                <div class="boxxxxxx2">
+                    <h3>New Collections</h3>
+                    <div class="z2">
+                        <img src="img/3rd sc.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-box-ddd">
+        <div class="product-comp-ddd">
+            <div class="box-n">
+                <div class="boxxxxxx3">
+                    <h3>Latest Gadgets</h3>
+                    <div class="z3">
+                        <img src="img/2nd sc.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ******************second itrnery display completes here************* -->
+
+    <!-- ****************Footer starts********************* -->
+
+
+    <div class="button1"><!--  BackToTop -->
+        <button onclick="topFunction()" id="myBtn">Back to top</button>
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h4>Get to Know Us</h4>
+                <ul>
+                    <li><a href="https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer">About Us</a> </li>
+                    <li> <a href="https://amazon.jobs/en/">Careers</a></li>
+                    <li><a href="https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer">Press Releases</a>
+                    </li>
+                    <li><a href="https://www.amazon.science/">Amazon Science</a> </li>
+                </ul>
+            </div>
+            <div class="footer-second">
+                <h4>Connect with Us</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/AmazonIN">Facebook</a> </li>
+                    <li><a href="https://twitter.com/AmazonIN">Twitter</a> </li>
+                    <li><a href="https://www.instagram.com/amazondotin/">Instagram</a> </li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <h4>Make Money with Us</h4>
+                <ul>
+                    <li><a
+                            href="https://www.amazon.in/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C">Sell
+                            on Amazon</a> </li>
+                    <li><a href="https://www.amazon.in/b/?node=16192220031&ref_=map_1_b2b_GW_FT">Sell under Amazon
+                            Accelerator</a> </li>
+                    <li><a href="https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT">Protect and
+                            Build Your Brand</a> </li>
+                    <li><a
+                            href="https://sell.amazon.in/grow-your-business/amazon-global-selling?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1">Amazon
+                            Global Selling</a> </li>
+                    <li><a
+                            href="https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc">Become
+                            an Affiliate</a> </li>
+                    <li><a
+                            href="https://sell.amazon.in/shipping-and-fulfillment/fulfillment-by-amazon?ref_=asin_soa_rd&ld=AWRGINFBAfooter">Fulfilment
+                            by Amazon</a> </li>
+                    <li><a href="https://advertising.amazon.com/en-gb?ref=Amz.in">Advertise Your Products</a> </li>
+                    <li><a href="https://www.amazonpay.in/merchant">Amazon Pay on Merchants</a> </li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <h4>Let Us Help You</h4>
+                <ul>
+                    <li><a
+                            href="https://www.amazon.in/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid">COVID-19
+                            and Amazon</a> </li>
+                    <li><a href="https://www.amazon.in/gp/css/homepage.html?ref_=footer_ya">Your Account</a> </li>
+                    <li><a href="https://www.amazon.in/gp/css/returns/homepage.html?ref_=footer_hy_f_4">Returns
+                            Centre</a> </li>
+                    <li><a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc">100%
+                            Purchase Protection</a> </li>
+                    <li><a href="https://www.amazon.in/gp/browse.html?node=6967393031&ref_=footer_mobapp">Amazon App
+                            Download</a> </li>
+                    <li><a
+                            href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <div class="footer-base-text">
+        <div class="left-logo">
+            <img src="img/main-logo2.png" alt="">
+        </div>
+        <div class="button2">
+            <button id="myBtn2">
+                <span><i class="fa-solid fa-globe"></i></span>
+                <div class="1">English</div>
+            </button>
+        </div>
+        <div class="base-text">
+            <img class="baselang" src="img/language-basetext.png" alt="">
+            </ul>
+        </div>
+
+    </div>
+
+    <footer class="footer2">
+        <img src="img/minfooter.png" alt="">
+    </footer>
+    <!-- ***************footer completes here***************** -->
+</body>
+
+</html>
