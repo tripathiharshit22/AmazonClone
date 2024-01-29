@@ -1,0 +1,1801 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+/* ***************************NAV STARTS HERE*************************** */
+nav {
+    font-family: 'Amazon Ember', sans-serif;
+    width: 100%;
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+nav .main-logo img {
+    width: 116px;
+    padding: 16px 7px 7px 12px;
+    margin: 6px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    flex: 0.18;
+    margin-right: 10px;
+    justify-content: space-between;
+
+
+}
+
+
+nav div span,
+i {
+    color: white;
+}
+
+.map {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 6px 11px 4px -65px;
+}
+
+
+
+.map i {
+    margin-top: 12px;
+    /* padding-left: 5px; */
+    font-size: 14px;
+}
+
+.map div {
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.map div .first {
+    font-size: 11px;
+    color: #CCCCCC;
+    letter-spacing: 0.6px;
+}
+
+.map div .second {
+    font-weight: bold;
+
+}
+
+.search-input {
+    width: 100%;
+    background-color: white;
+    flex: 0.53;
+    border-radius: 5px;
+    display: flex;
+    margin: 0px -95px 0px -76px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.search-input input {
+    outline: none;
+    width: 85%;
+    font-size: 15px;
+    padding: 50px 44px 48px -10px;
+    border: none;
+    margin: 6px 2px 8px 1px;
+}
+
+.search-input .fa-magnifying-glass {
+    color: #16242F;
+    padding: 10px 13px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FEBD69;
+    border-radius: 0 5px 5px 0;
+
+}
+
+.search-input div {
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #a9a9a9;
+    background-color: rgb(236, 234, 234);
+    padding: 8px 1px;
+
+}
+
+.search-input div span {
+    border-radius: 5px 0 0 5px;
+    color: rgb(51, 51, 51);
+    padding: 3px 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.search-input .fa-caret-down {
+    color: #6F7373;
+    cursor: pointer;
+    padding: 3px 5px;
+    margin: 6px 3px 7px 1px;
+    font-size: 10px;
+}
+
+nav .right {
+    font-family: 'Amazon Ember', sans-serif;
+    justify-content: space-around;
+    flex: 0.29;
+    margin-right: 11px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    font-size: 13px;
+
+
+}
+
+nav .language {
+
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+nav .language span {
+
+    color: white;
+    margin: 1px 3px;
+    font-weight: bold;
+
+}
+
+.language img {
+    width: 33px;
+    margin: 0 17px;
+    padding: 5px 5px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-right: -5px;
+    height: 27px;
+}
+
+.language .fa-caret-down {
+    color: #767D82;
+    ;
+}
+
+nav .signIn {
+    margin-top: 6px;
+}
+
+nav .signIn .accounts span {
+    font-weight: bold;
+}
+
+nav .signIn .accounts .fa-caret-down {
+    font-size: 11px;
+    color: #767D82;
+}
+
+nav .Return-Order {
+    margin-top: 6px;
+
+}
+
+nav .Return-Order .Order span {
+    font-weight: bold;
+}
+
+nav .cart {
+    margin: 0px -13px 0px 7px;
+    justify-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav .cart .fa-cart-shopping {
+    margin-top: 9px;
+    font-size: 26px;
+}
+
+nav .cart p {
+    display: flex;
+    position: fixed;
+    margin: -42px 11px;
+    color: #F08804;
+}
+
+/* ***********************************NAV DONE HERE****************************************** */
+
+.navbar {
+    font-family: 'Amazon Ember', sans-serif;
+    background-color: #232F3D;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.navbar div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: -10px -22px;
+
+
+}
+
+.navbar div div {
+    margin: 0px 5px 2px 9px;
+    font-size: 0.9rem;
+    text-align: center;
+    /* width: 111%; */
+    padding: -1px 92px;
+    display: flex;
+}
+
+.left {
+    align-items: center;
+    display: flex;
+    margin: -15px -39px -16px 15px;
+
+}
+
+.item1 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item1 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item2 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item2 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item3 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item3 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item4 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item4 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item5 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item5 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item6 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item6 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item7 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item7 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item8 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item8 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item9 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item9 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item10 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item10 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item11 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item11 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item12 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.item12 a:hover {
+    cursor: pointer;
+    color: #d4dee3;
+}
+
+.item1 i {
+    margin: 1px 4px;
+}
+
+.item10 i {
+    margin: 1px 4px;
+    color: #A7ACB2;
+}
+
+/* ***********Banner Slider starts************* */
+.main {
+    box-sizing: border-box;
+}
+
+.main-slider {
+    position: relative;
+    margin: auto;
+}
+
+.main-slider img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .5
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -309px;
+    padding: 116px 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border: 2px 3px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    border: 2px solid rgb(130, 130, 130);
+    border-radius: 5px;
+
+}
+
+/* *********Banner Slider Ends********* */
+
+/* ******************First itrnery display stars here************* */
+
+.container-box {
+    position: absolute;
+    z-index: 1;
+    top: 233px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-comp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 142px 0;
+    margin-right: 15px;
+}
+
+.gradient {
+    background: linear-gradient(to bottom, transparent, #E3E6E6 70%);
+    width: 100%;
+    height: 268px;
+    position: absolute;
+    margin-top: -255px;
+
+    /* display: flex;
+        margin: 23px 23px; */
+
+}
+
+.product-comp .box-a,
+.box-b,
+.box-c,
+.box-d {
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+.product-box .box {
+    width: 315px;
+    height: 400px;
+    background-color: white;
+}
+
+.box h3 {
+    font-family: 'Amazon Ember', sans-serif;
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 23px;
+    margin-bottom: -1px;
+    color: rgb(4, 2, 2);
+}
+
+.box-a {
+    font-size: 13px;
+    margin-left: 8px;
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.box div img {
+    /* width: 83px;
+        height: 144px; */
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: 0;
+}
+
+.box-a div {
+    display: inline-block;
+}
+
+.box-a .q {
+    width: 76px;
+    margin: 19px 54px;
+}
+
+.box-a .w {
+    width: 43px;
+    margin: 20px 57px;
+}
+
+.box-a .e {
+    width: 55px;
+    margin: 0 66px;
+}
+
+.box-a .r {
+    width: 43px;
+    margin: 0px 55px;
+}
+
+.box-a div span {
+    font-family: 'Amazon Ember', sans-serif;
+    display: inline-block;
+}
+
+.box-a span {
+    margin: -2px -21px;
+}
+
+
+.box-b {
+    font-size: 13px;
+    /* margin-left: -52px; */
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.box2 h3 {
+    font-family: 'Amazon Ember', sans-serif;
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 23px;
+    margin-bottom: -1px;
+    color: rgb(4, 2, 2);
+}
+
+.box2 div img {
+    /* width: 83px;
+        height: 144px; */
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: 0;
+}
+
+.box-b div {
+    display: inline-block;
+}
+
+.box-b .qa {
+    width: 76px;
+    margin: 19px 54px;
+}
+
+.box-b .wb {
+    width: 43px;
+    margin: 20px 57px;
+}
+
+.box-b .ec {
+    width: 45px;
+    margin: -4px 74px;
+
+}
+
+.box-b .rd {
+    width: 52px;
+    margin: -9px 46px;
+}
+
+.box-b div span {
+    display: inline-block;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.box-b span {
+    margin: -2px -21px;
+}
+
+.box-b div span {
+    display: inline-block;
+}
+
+.box-b span {
+    margin: -2px -21px;
+}
+
+
+
+.box-c {
+    position: relative;
+    font-size: 13px;
+    /* margin-right: 331px; */
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.box3 h3 {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 23px;
+    margin-bottom: -1px;
+    color: rgb(4, 2, 2);
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.box3 div img {
+    /* width: 83px;
+        height: 144px; */
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: 0;
+}
+
+.box-c div {
+    display: inline-block;
+}
+
+.box-c .qaa {
+    width: 76px;
+    margin: 19px 54px;
+}
+
+.box-c .wbb {
+    width: 38px;
+    margin: 30px 59px;
+}
+
+.box-c .ecc {
+    width: 39px;
+    margin: -20px 70px;
+
+}
+
+.box-c .rdd {
+    width: 54px;
+    margin: -28px 54px;
+}
+
+.box-c div span {
+    display: inline-block;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.box-c span {
+    margin: -2px -21px;
+}
+
+.box-c div span {
+    display: inline-block;
+}
+
+.box-c span {
+    margin: -2px -21px;
+}
+
+
+
+
+.box-d {
+    font-size: 13px;
+    /* margin-right: -1px; */
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.box4 h3 {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 23px;
+    margin-bottom: -1px;
+    color: rgb(4, 2, 2);
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.box4 div img {
+
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: 0;
+}
+
+.box-d div {
+    display: inline-block;
+}
+
+.box-d .qaaa {
+    width: 76px;
+    margin: 19px 54px;
+}
+
+.box-d .wbbb {
+    width: 43px;
+    margin: 20px 57px;
+}
+
+.box-d .eccc {
+    width: 51px;
+    margin: 9px 70px;
+
+}
+
+.box-d .rddd {
+    width: 86px;
+    margin: -37px 32px;
+
+}
+
+.box-d div span {
+    display: inline-block;
+}
+
+.box-d span {
+    margin: -2px -21px;
+}
+
+.box-d div span {
+    font-family: 'Amazon Ember', sans-serif;
+    display: inline-block;
+}
+
+.box-d span {
+    margin: -2px -21px;
+}
+
+/* ******************1st itrnery display completes here************* */
+/* ******************2nd itrnery display starts  here************* */
+
+
+.container-box-b {
+    position: absolute;
+    z-index: 1;
+    top: 679px;
+    left: 0;
+    /* width: 100%; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-comp-b {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 142px 0;
+    margin-right: 34px;
+}
+
+.gradient-fullbase {
+    position: absolute;
+    background: #E3E6E6;
+    width: 100%;
+    height: 2322px;
+    margin-top: 12px;
+    z-index: -1;
+}
+
+.product-comp-b .box-e {
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+.product-box .boxx {
+    width: 315px;
+    height: 400px;
+    background-color: white;
+}
+
+
+
+.box-e {
+    font-size: 13px;
+    margin-left: 8px;
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boxx div img {
+    cursor: pointer;
+    /* margin-left: -20px; */
+    margin-right: 0;
+    /* background-size: cover; */
+    width: 345px;
+    height: 465px;
+    margin-top: -65px;
+    margin-left: -54px;
+}
+
+.box-e div {
+    display: inline-block;
+}
+
+.box-e .s {
+    width: 76px;
+    margin: 19px 54px;
+}
+
+.boxx h3 {
+    margin-top: -4px;
+    margin-left: 12px;
+    font-size: 20px;
+    margin-bottom: -1px;
+    color: rgb(207 206 206);
+    /* z-index: 1; */
+    position: absolute;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+/* ***********2nd itenery me hi 2nd landscape banner********** */
+.container-box-bb {
+    position: absolute;
+    z-index: 1;
+    top: 679px;
+    left: 0;
+    /* width: 100%; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 376px;
+}
+
+.product-comp-bb {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 142px 0;
+    margin-right: 38px;
+}
+
+
+
+.product-comp-bb .box-f {
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+.product-box .boxxx {
+    width: 315px;
+    height: 400px;
+    background-color: white;
+}
+
+.box-f {
+    font-size: 13px;
+    margin-left: 8px;
+    display: block;
+    width: 719px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boxxx div img {
+    cursor: pointer;
+    /* margin-left: -20px; */
+    margin-right: 0;
+    /* background-size: cover; */
+    width: 723px;
+    height: 425px;
+    margin-top: -37px;
+    margin-left: -56px;
+}
+
+.box-f div {
+    display: inline-block;
+}
+
+.box-f .t {
+    width: 76px;
+    margin: 19px 54px;
+}
+
+/* ***********2nd itenery me hi 2nd landscape banner completes here********** */
+
+/* ******************2nd itenery me hi 3nd potrait banner starts here*********************** */
+.container-box-bbb {
+    position: absolute;
+    z-index: 1;
+    top: 695px;
+    left: 0;
+    /* width: 100%; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 1122px;
+}
+
+.product-comp-bbb {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 142px 0;
+    margin-right: 15px;
+}
+
+.product-comp-b .box-g {
+    justify-content: space-between;
+    margin: 225px 15px;
+}
+
+.product-box .boxxxx {
+    width: 315px;
+    height: 400px;
+    background-color: white;
+}
+
+
+
+.box-g {
+    font-size: 13px;
+    margin-left: 8px;
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boxxxx div img {
+    cursor: pointer;
+    /* margin-left: -20px; */
+    margin-right: 0;
+    /* background-size: cover; */
+    width: 444px;
+    height: 446px;
+    margin-top: -46px;
+    margin-left: -97px;
+}
+
+.box-g div {
+    display: inline-block;
+}
+
+.box-g .u {
+    width: 76px;
+    margin: 19px 54px;
+    color: rgb(207 206 206);
+
+}
+
+
+
+/* *************2nd itenery me hi 3nd potrait banner completes here************** */
+
+/* ****************3rd itenery slider horizontal image starts here ************** */
+div.scroll-container {
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    padding-top: 12px;
+    margin-top: 591px;
+    z-index: 1;
+    margin-left: 18px;
+    margin-right: 33px;
+
+}
+
+div.scroll-container img {
+    padding: 10px;
+    width: 310px;
+    height: 275px;
+}
+
+div.scroll-container h3 {
+    font-size: 20px;
+    font-family: 'Amazon Ember', sans-serif;
+
+
+}
+
+/* ****************3rd itenery slider horizontal image completes here************ */
+
+
+/* *************************4th itenery banner starts here********************** */
+.container-box-c {
+    position: absolute;
+    z-index: 1;
+    top: 1507px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-comp-c {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 142px 0;
+    margin-right: 15px;
+}
+
+.gradient {
+    background: linear-gradient(to bottom, transparent, #E3E6E6 70%);
+    width: 100%;
+    height: 268px;
+    position: absolute;
+    margin-top: -255px;
+
+    /* display: flex;
+        margin: 23px 23px; */
+
+}
+
+.product-comp-c .box-h,
+.box-i,
+.box-j,
+.box-k {
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+.product-box .boxxxxx1 {
+    width: 315px;
+    height: 400px;
+    background-color: white;
+}
+
+.boxxxxx1 h3 {
+    font-family: 'Amazon Ember', sans-serif;
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 23px;
+    margin-bottom: -1px;
+    color: rgb(4, 2, 2);
+}
+
+.box-h {
+    font-size: 13px;
+    margin-left: 8px;
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boxxxxx1 div img {
+    /* width: 83px;
+        height: 144px; */
+    cursor: pointer;
+    margin-left: -24px;
+    margin-right: 0;
+}
+
+.box-h div {
+    display: inline-block;
+}
+
+.box-h .v {
+    width: 310px;
+    /* height: 94px; */
+    margin: 40px 41px;
+}
+
+.box-h div span {
+    font-family: 'Amazon Ember', sans-serif;
+    display: inline-block;
+}
+
+.box-h span {
+    margin: -2px -21px;
+}
+
+
+.box-i {
+    font-size: 13px;
+    /* margin-left: -52px; */
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boxxxxx2 h3 {
+    font-family: 'Amazon Ember', sans-serif;
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 23px;
+    margin-bottom: -1px;
+    color: rgb(4, 2, 2);
+}
+
+.boxxxxx2 div img {
+    /* width: 83px;
+        height: 144px; */
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: 0;
+}
+
+.box-i div {
+    display: inline-block;
+}
+
+.box-i .w {
+    width: 600px;
+    margin: 12px 21px;
+}
+
+.box-i div span {
+    display: inline-block;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.box-i span {
+    margin: -2px -21px;
+}
+
+.box-i div span {
+    display: inline-block;
+}
+
+.box-i span {
+    margin: -2px -21px;
+}
+
+
+
+.box-j {
+    position: relative;
+    font-size: 13px;
+    /* margin-right: 331px; */
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boxxxxx3 h3 {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 23px;
+    margin-bottom: -1px;
+    color: rgb(4, 2, 2);
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.boxxxxx3 div img {
+    /* width: 83px;
+        height: 144px; */
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: 0;
+}
+
+.box-j div {
+    display: inline-block;
+}
+
+.box-j .x {
+    width: 600px;
+    margin: 9px 21px;
+}
+
+.box-j div span {
+    display: inline-block;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.box-j span {
+    margin: -2px -21px;
+}
+
+.box-j div span {
+    display: inline-block;
+}
+
+.box-j span {
+    margin: -2px -21px;
+}
+
+
+
+
+.box-k {
+    font-size: 13px;
+    /* margin-right: -1px; */
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boxxxxx4 h3 {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-size: 23px;
+    margin-bottom: -1px;
+    color: rgb(4, 2, 2);
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.boxxxxx4 div img {
+
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: 0;
+}
+
+.box-k div {
+    display: inline-block;
+}
+
+.box-k .y {
+    width: 600px;
+    margin: 9px 21px;
+}
+
+.box-k div span {
+    display: inline-block;
+}
+
+.box-k span {
+    margin: -2px -21px;
+}
+
+.box-k div span {
+    font-family: 'Amazon Ember', sans-serif;
+    display: inline-block;
+}
+
+.box-k span {
+    margin: -2px -21px;
+}
+
+/* **********************4th itenery banner completes here******************* */
+
+/* *****************2nd itenery slider horizontal image starts here ************* */
+div.scroll-containerb {
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    padding-top: 12px;
+    margin-top: 472px;
+    z-index: 1;
+    margin-left: 18px;
+    margin-right: 33px;
+
+}
+
+div.scroll-containerb img {
+    padding: 10px;
+    width: 220px;
+    height: 256px;
+}
+
+div.scroll-containerb h3 {
+    font-size: 20px;
+    font-family: 'Amazon Ember', sans-serif;
+
+
+}
+
+/* ****************2nd itenery slider horizontal image completes here************ */
+
+/* ******************5th itrnery display starts  here************* */
+
+
+.container-box-d {
+    position: absolute;
+    z-index: 1;
+    top: 2287px;
+    left: 0;
+    /* width: 100%; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-comp-d {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 142px 0;
+    margin-right: 34px;
+}
+
+.gradient-fullbase {
+    position: absolute;
+    background: #E3E6E6;
+    width: 100%;
+    height: 2722px;
+    margin-top: 12px;
+    z-index: -1;
+}
+
+.product-comp-d .box-l {
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+.product-box .boxxxxxx1 {
+    width: 315px;
+    height: 400px;
+    background-color: white;
+}
+
+
+
+.box-l {
+    font-size: 13px;
+    margin-left: 8px;
+    display: block;
+    width: 723px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.boxxxxxx1 div img {
+    cursor: pointer;
+    /* margin-left: -20px; */
+    margin-right: 0;
+    /* background-size: cover; */
+    width: 345px;
+    height: 465px;
+    margin-top: -65px;
+    margin-left: -54px;
+}
+
+.box-l div {
+    display: inline-block;
+}
+
+.box-l .z {
+    width: 33px;
+    margin: -175px 0;
+}
+
+.boxxxxxx1 h3 {
+    margin-top: -4px;
+    margin-left: 12px;
+    font-size: 20px;
+    margin-bottom: -1px;
+    color: rgb(207 206 206);
+    /* z-index: 1; */
+    position: absolute;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+/* ***********5th itenery me hi 2nd landscape banner********** */
+.container-box-dd {
+    position: absolute;
+    z-index: 1;
+    top: 2287px;
+    left: 0;
+    /* width: 100%; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 751px;
+}
+
+.product-comp-dd {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 142px 0;
+    margin-right: 38px;
+}
+
+
+
+.product-comp-dd .box-m {
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+.product-box .boxxxxxx2 {
+    width: 215px;
+    height: 400px;
+    background-color: white;
+}
+
+.box-m {
+    font-size: 13px;
+    margin-left: 8px;
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boxxxxxx2 div img {
+    cursor: pointer;
+    /* margin-left: -20px; */
+    margin-right: 0;
+    /* background-size: cover; */
+    width: 646px;
+    height: 394px;
+    margin-top: -7px;
+    margin-left: -65px;
+}
+
+.box-m div {
+    display: inline-block;
+}
+
+.box-m .z2 {
+    width: 76px;
+    margin: 19px 54px;
+}
+
+.boxxxxxx2 h3 {
+    margin-top: -4px;
+    margin-left: 12px;
+    font-size: 20px;
+    margin-bottom: -1px;
+    color: rgb(0, 0, 0);
+    /* z-index: 1; */
+    position: absolute;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+/* ***********5th itenery me hi 2nd landscape banner completes here********** */
+
+/* ******************5th itenery me hi 3nd potrait banner starts here*********************** */
+.container-box-ddd {
+    position: absolute;
+    z-index: 1;
+    top: 2302px;
+    left: 0;
+    /* width: 100%; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 1122px;
+}
+
+.product-comp-ddd {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 142px 0;
+    margin-right: 15px;
+}
+
+.product-comp-d .box-n {
+    justify-content: space-between;
+    margin: 225px 15px;
+}
+
+.product-box .boxxxxxx3 {
+    width: 315px;
+    height: 400px;
+    background-color: white;
+}
+
+
+
+.box-n {
+    font-size: 13px;
+    margin-left: 8px;
+    display: block;
+    width: 345px;
+    height: 421px;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.boxxxxxx3 div img {
+    cursor: pointer;
+    /* margin-left: -20px; */
+    margin-right: 0;
+    /* background-size: cover; */
+    width: 646px;
+    height: 394px;
+    margin-top: -7px;
+    margin-left: -63px;
+}
+
+.box-n div {
+    display: inline-block;
+}
+
+.box-n .z3 {
+    width: 76px;
+    margin: 19px 54px;
+    color: rgb(207 206 206);
+
+}
+
+.boxxxxxx3 h3 {
+    margin-top: -4px;
+    margin-left: 12px;
+    font-size: 20px;
+    margin-bottom: -1px;
+    color: rgb(0, 0, 0);
+    /* z-index: 1; */
+    position: absolute;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+/* *************5th itenery me hi 3nd potrait banner completes here************** */
+/* ************Footer Starts******************* */
+.footer {
+    background-color: #232F3E;
+    height: 331px;
+    display: flex;
+    padding: 70px 283px;
+    justify-content: space-around;
+    margin-top: 486px;
+    margin-bottom: 227px;
+    z-index: 60;
+    font-family: 'Amazon Ember', sans-serif;
+
+
+}
+
+.footer ul {
+    color: #dedede;
+    list-style: none;
+    margin-top: -5px;
+    padding-left: 9px;
+
+}
+
+.footer ul li {
+    list-style: none;
+    padding: 3px;
+    font-size: 14px;
+    color: #dedede;
+
+
+
+}
+
+.footer ul li a {
+    /* text-decoration: underline; */
+    color: #dedede;
+
+
+
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+
+
+
+}
+
+.footer div {
+    width: 430px;
+}
+
+footer .footer-third h4,
+.footer-first h4,
+.footer-second h4,
+.footer-fourth h4 {
+    align-items: center;
+    padding: 12px;
+    color: #FFFFFF;
+
+}
+
+footer .footer-third {
+    color: #FFFFFF;
+    width: 515px;
+    font-size: 17px;
+}
+
+.footer-base-text {
+    justify-content: center;
+    background-color: #232F3E;
+    margin-top: -226px;
+    height: 218px;
+    width: 1523px;
+    display: flex;
+
+
+}
+
+.footer-base-text img {
+    /* text-align: center; */
+    margin-top: 44px;
+    height: 19px;
+    width: 66px;
+    margin-left: -154px;
+    position: absolute;
+    justify-content: center;
+
+
+}
+
+/* ************Footer completes******************* */
+/* ***************Back to top**************** */
+.button1 {
+    margin-top: 9px;
+    width: 34px;
+    height: 12px;
+    color: #2D3B4C;
+    z-index: 100;
+    margin-right: 344px;
+    position: relative;
+}
+
+.button1 #myBtn {
+    font-family: 'Amazon Ember', sans-serif;
+    margin-top: 454px;
+    right: 30px;
+    z-index: 99;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    background-color: #2D3B4C;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    z-index: 102;
+    /* border-radius: 4px; */
+    width: 4469%;
+}
+
+.button1 #myBtn:hover {
+    background-color: #37475A;
+
+}
+
+/* ************** bottom-Language************ */
+.button2 {
+    margin-top: 9px;
+    width: 34px;
+    height: 12px;
+    color: #2D3B4C;
+    z-index: 100;
+    margin-right: 353px;
+    position: absolute;
+
+}
+
+.button2 #myBtn2 {
+    font-family: 'Amazon Ember', sans-serif;
+    margin-top: 21px;
+    right: 30px;
+    z-index: 99;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: #232F3E;
+    color: white;
+    cursor: pointer;
+    padding: 8px 10px;
+    z-index: 102;
+    /* border-radius: 4px; */
+    width: 337%;
+    justify-content: center;
+    display: flex;
+    /* letter-spacing: 46px; */
+    border-radius: 3px;
+    border: 1px solid white;
+    margin-left: 206px;
+}
+
+.button2 #myBtn2 span {
+    padding-right: 10px;
+
+}
+
+
+.footer-base-text .base-text .baselang {
+    display: flex;
+    width: 937px;
+    height: 68px;
+    margin-top: 93px;
+    margin-left: -444px;
+    align-items: center;
+    z-index: 123;
+    padding: -13px 0px;
+}
+
+.footer2 {
+    display: flex;
+    width: 1523px;
+    height: 223px;
+    margin-top: -1px;
+    /* margin-left: 26px; */
+}
+
+foobackgrd div {
+    display: flex;
+    width: 1232px;
+    height: 1223px;
+    margin-top: 4223px;
+    background-color: #131921;
+}
+
+html {
+    /* for smooth scrolling */
+    scroll-behavior: smooth;
+}
